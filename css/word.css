@@ -1,0 +1,64 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Song+Myung&display=swap');
+/* 폰트 */
+.hanna {
+    font-family: 'Hanna';
+}
+.jeju-g {
+    font-family: 'Jeju Gothic';
+}
+.nanum-g-c {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.jeju-m {
+    font-family: 'Jeju Myeongjo', cursive;
+}
+.song-m{
+    font-family: 'Song Myung', serif;
+}
+/* 내용물에 맞게 크기 조절 */
+.size{
+    white-space: pre;
+    display: inline-block;
+}
+/* 박스 */
+.box{
+    background-color: #ffffff00;
+    border: solid rgba(133, 133, 133, 0.8);
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 1em 2em;
+    word-break: break-word;
+}
+/* 글씨 색깔 */
+.red {
+    color:crimson;
+    font-weight: bolder;
+}
+.blue {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+.pink {
+    color: lightcoral;
+    font-weight: bolder;
+}
+.gray {
+    color: rgba(129, 129, 129, 0.60);
+    font-weight: bolder;
+}
+.white {
+    color: rgba(255, 255, 255);
+    font-weight: bolder;
+}
+/* 형광펜 */
+.highlight{
+    background-color: rgba(255, 243, 174, 0.658);
+    font-weight: bolder;
+}
+/* 배경색 */
+.b-black{
+    background-color: black;
+}
